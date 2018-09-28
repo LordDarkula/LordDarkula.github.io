@@ -1,0 +1,246 @@
+
+# Site settings
+
+# NB! Set your site's url, otherwise stuff will break :)
+
+url: "https://lorddarkula.github.io"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+#
+# NB! Without this *nothing* will work, because it's used in every path :)
+
+baseurl: /personal-jekyll-theme
+
+# Google tracking id
+
+google-tracking-id: ""
+
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
+
+force-https: True
+
+#############
+# HTML Head #
+#############
+
+lang: "en"
+author: "Aubhro Sengupta"
+title: "{ Personal Website of Aubhro Sengupta }"
+description: "Blog and personal website of Aubhro Sengupta"
+keywords: "sengupta, aubhro, personal, gatech"
+favicon: "/img/favicon.ico"
+
+################
+# Header layout #
+################
+
+black-favicon: "/img/black-lab-glass.ico"
+
+background-img: "../img/intro-bg.jpg"
+
+##############################
+# Dynamic Text on the Header #
+##############################
+
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+lines: # You can add HTML Tags in the Text
+  - text: "Student, coder, speaker, researcher"
+  - text: "Undergraduate @ Georgia Tech College of Computing"
+
+# me-img: "/img/jetpacktocat.png"
+
+# To use facebook profile pic comment the previous line and uncomment the following
+# line, and replace 'user_id' with your facebook user id.
+# Facebook user id can be found by clicking on your profile pic and the large number
+# in the end of the url just before '&type' is your user id.
+# Note: fbid is not the same as user id and user id only contains numbers
+
+# me-img: "https://graph.facebook.com/user_id/picture?type=large&width=500&height=500"
+
+# To use github profile pic uncomment the following line and replace 'user_name'
+# with your github user name.
+
+me-img: "https://github.com/lorddarkula.png?size=500"
+
+# To use gravatar profile pic uncomment the following line and replace 'email_hash'
+# with your gravatar profile email hash.
+# You can create the email hash by using an online tool like 'http://www.md5hashgenerator.com/'
+# just enter your email and it will generate the hash.
+
+# me-img: "https://www.gravatar.com/avatar/email_hash?s=500"
+
+##############################
+# Color the browser elements #
+##############################
+color-browser: "#000000"
+apple-status-bar-style: "black"
+
+################
+# Web app mode #
+################
+
+web-app-mode: True
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
+
+########
+# Blog #
+########
+
+enable-gesture-navigation: True
+
+post-preview-words: 96
+
+paginate: 5
+
+email-share: True
+fb-share: True
+twitter-share: True
+linkedin-share: True
+reddit-share: True
+google-plus-share: True
+tumblr-share: True
+pinterest-share: True
+pocket-share: True
+vkontakte-share: True
+
+disqus-shortname: "personal-jekyll-theme"
+
+syntax-highlight: True
+
+############
+# Timeline #
+############
+
+events:
+  - image: "/img/timeline/itunes.png"
+    date: "May 2017 - Feb 2018"
+    description: "Developed official DvCon iOS app <br>[App Store Link](https://itunes.apple.com/us/app/dvcon-2018/id1352132248?ls=1&mt=8)"
+
+  - image: "/img/timeline/ohio.png"
+    date: "Jul 2017"
+    description: "Spoke at PyOhio 2017. Talk titled Using Machine Learning to Play Chess [Video](https://www.youtube.com/watch?v=bJfqn4Ysvsk&t=9s)" 
+  
+  - image: "/img/timeline/un.png"
+    date: "Jul 2016 - May 2017"
+    description: "Worked for the United Nations Department of Economic and Social Affairs 
+
+[UN DESA Modelling Website](https://un-modelling.github.io)
+
+[Security Documents Classifier Repository](https://github.com/LordDarkula/CyberSecurity_Strategies)"
+
+# First image of the Timeline
+
+timeline-img: "/img/timeline/default.png"
+
+###########
+# Contact #
+###########
+
+email: "aubhros@gmail.com" 
+
+################
+# Author Blurb #
+################
+
+# The author blurb goes underneath blog posts.
+# This works best when your author blurb image has a transparent background, or matches your site background color.
+
+# if the author_blurb is not set, then this feature is skipped
+author_blurb: "You have reached the personal website of Aubhro Sengupta (LordDarkula on GitHub and Twitter). 
+
+I am a speaker, programmer, and student. I am currently an undergraduate student at Georgia Institute of Technology where I am pursuing a bachelors degree in Computer Science.
+
+I spend most of my free time programming side projects (such as this one), and it has led to me speaking at multiple conferences,
+and an internship with the United Nations. 
+
+The programming languages I am most comfortable with are Python, Java, Swift, and Scala, but I am a fast learner and
+have dabbled with Mathematica and Go as well.  
+
+I participate in hackathons as well, and have worked on projects that ranged from Virtual Reality to Machine Learning. 
+
+I have a rare physical condition called [Kniest Dysplasia](https://en.wikipedia.org/wiki/Kniest_dysplasia). This condition causes me to have hearing loss, vision loss, mobility issues, and a short stature. If you have never heard of the condition, then I would not be surprised as the article on wikipedia is shorter than I am. But all of those issues do not bother me, as all my friends also happen to be devout nerds who do nothing but study and code. 
+
+I also occasionally play chess, play guitar, and swim (Its one of the few physical activities I can do)."
+author_blurb_image: "/img/author.png"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "facebook"
+    url: "https://facebook.com/aubhro.sengupta"
+  - title: "twitter"
+    url: "https://twitter.com/LordDarkula"
+  - title: "github"
+    url: "https://github.com/lorddarkula"
+  - title: "rss"
+    url: "/feed.xml"
+
+############
+# 404 page #
+############
+
+err-404-img: "/img/labtocat.png"
+
+##################
+# GPG on Keybase #
+##################
+
+keybase-username: lorddarkula 
+keybase-in-social: True
+keybase-in-footer: True
+
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  Blog: 'latest-post'
+  Timeline: 'timeline'
+  Contact: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
+# Pagination path
+
+paginate_path: "blog/page:num/"
+
+# Enable minification SASS
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jemoji
+---
+layout: page
+title: About
+permalink: /about/
+---
+

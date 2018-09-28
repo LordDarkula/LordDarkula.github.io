@@ -132,7 +132,7 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/kemp.png"
     date: "Sep 2018 - Present"
-    description: "Undergraduate Research Assistant"
+    description: "Undergraduate Research Assistant<br>Kemp Laboratory<br>Georgia Tech"
 
   - image: "/img/timeline/itunes.png"
     date: "May 2017 - Feb 2018"

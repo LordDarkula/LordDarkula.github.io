@@ -55,7 +55,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Student, coder, speaker, researcher"
+  - text: "Student, Coder, Speaker, Researcher"
   - text: "Undergraduate @ Georgia Tech College of Computing"
 
 # me-img: "/img/jetpacktocat.png"

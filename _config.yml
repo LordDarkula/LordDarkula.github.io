@@ -137,7 +137,7 @@ events:
 
   - image: "/img/timeline/ohio.png"
     date: "Jul 2017"
-    description: "Spoke at PyOhio 2017. Talk titled Using Machine Learning to Play Chess [Video](https://www.youtube.com/watch?v=bJfqn4Ysvsk&t=9s)" 
+    description: "Spoke at PyOhio 2017. Talk titled Using Machine Learning to Play Chess <br>[Video](https://www.youtube.com/watch?v=bJfqn4Ysvsk&t=9s)" 
   
   - image: "/img/timeline/un.png"
     date: "Jul 2016 - May 2017"

@@ -131,17 +131,21 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/timeline/kemp.png"
+    date: "Sep 2018 - Present"
+    description: "Undergraduate Research Assistant"
+
   - image: "/img/timeline/itunes.png"
     date: "May 2017 - Feb 2018"
-    description: "Developed official DvCon iOS app <br>[App Store Link](https://itunes.apple.com/us/app/dvcon-2018/id1352132248?ls=1&mt=8)"
+    description: "Official DvCon iOS App Developer <br>[App Store Link](https://itunes.apple.com/us/app/dvcon-2018/id1352132248?ls=1&mt=8)"
 
   - image: "/img/timeline/ohio.png"
     date: "Jul 2017"
-    description: "Spoke at PyOhio 2017. Talk titled Using Machine Learning to Play Chess <br>[Video](https://www.youtube.com/watch?v=bJfqn4Ysvsk&t=9s)" 
+    description: "PyOhio 2017 Conference Speaker. Talk titled Using Machine Learning to Play Chess <br>[Video](https://www.youtube.com/watch?v=bJfqn4Ysvsk&t=9s)" 
   
   - image: "/img/timeline/un.png"
     date: "Jul 2016 - May 2017"
-    description: "Worked for the United Nations Department of Economic and Social Affairs 
+    description: "United Nations Department of Economic and Social Affairs Volunteer 
 <br>
 [UN DESA Modelling Website](https://un-modelling.github.io)
 <br>

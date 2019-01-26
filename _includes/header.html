@@ -1,35 +1,37 @@
-
 <!-- Intro Start -->
 
 <header class="intro">
-  <div class="intro-body">
-    <div class="container">
-      <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <h1 class="brand-heading">&nbsp;</h1>
-            <h1 class="brand-heading">&nbsp;</h1>
-            <span class="intro-text">{{ content }}</span>
-            <h5>&nbsp;</h5>
-            <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
-              {% if site.me-img contains "https://" %}
-                <img class="img-me" src="{{ site.me-img }}" alt="">
-              {% else %}
-                <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">
-              {% endif %}
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h1 class="brand-heading">&nbsp;</h1>
 
-            </a>
-            <h5></h5>
-<div class="row">
-<div class="btn">
-    <strong>
-            <p><a class="resume" href="https://docs.google.com/document/export?format=pdf&id=1ZaNv8VOrv7USb8s4kIkmvlo_o8hI1F_-oMSrwm0UmxA">↓ Download Resume</a></p>
-    </strong>
-</div>
-</div>
-          </div>
+                    <span class="intro-text">{{ content }}</span>
+                    <h5>&nbsp;</h5>
+                    <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
+                        {% if site.me-img contains "https://" %}
+                        <img class="img-me" src="{{ site.me-img }}" alt="">
+                        {% else %}
+                        <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">
+                        {% endif %}
+
+                    </a>
+                    <h5></h5>
+                    <div class="row">
+                        <div class="btn">
+                            <strong>
+                                <p><a class="resume"
+                                      href="https://docs.google.com/document/export?format=pdf&id=1ZaNv8VOrv7USb8s4kIkmvlo_o8hI1F_-oMSrwm0UmxA">↓
+                                    Download Resume</a></p>
+                            </strong>
+                        </div>
+                    </div>
+                    <h1 class="brand-heading">&nbsp;</h1>
+                </div>
+            </div>
         </div>
     </div>
-  </div>
 </header>
 
 <!-- Intro End -->

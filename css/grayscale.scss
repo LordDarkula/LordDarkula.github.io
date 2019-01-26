@@ -78,6 +78,18 @@ a {
     }
 }
 
+a.resume {
+    color: #cccccc;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: darken($secondary-color,20%);
+    }
+}
+
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba($font-color, 0.3);

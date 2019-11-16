@@ -33,13 +33,13 @@ author: "Aubhro Sengupta"
 title: "Aubhro Sengupta"
 description: "Blog and personal website of Aubhro Sengupta"
 keywords: "sengupta, aubhro, personal, gatech"
-favicon: "/img/favicon.ico"
+favicon: "/img/dodgeball-100.ico"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/dodgeball-25.ico"
 
 background-img: "../img/intro-bg.jpg"
 

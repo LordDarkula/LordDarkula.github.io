@@ -2,7 +2,7 @@
 layout: post
 title:  "Fixing Pi Hole Dashboard Issue"
 date:   2019-08-29
-categories: tech
+categories: programming
 ---
 
 ## The Problem

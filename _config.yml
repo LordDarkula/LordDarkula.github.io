@@ -130,13 +130,18 @@ syntax-highlight: True
 ############
 
 events:
+
+  - image: "/img/timeline/logo_gcp.png"
+    date: "Sep 2019 - Dec 2019"
+    description: "Software Engineering Intern<br>Google Cloud GCP<br>Google"
+  
+  - image: "/img/timeline/vmware-logo.png"
+    date: "May 2019 - Aug 2019"
+    description: "Software Engineering Intern<br>NSBU<br>Vmware"
+
   - image: "/img/timeline/kemp.png"
     date: "Sep 2018 - Present"
     description: "Undergraduate Research Assistant<br>Kemp Laboratory<br>Georgia Tech"
-
-  - image: "/img/timeline/itunes.png"
-    date: "May 2017 - Feb 2018"
-    description: "Official DvCon iOS App Developer <br>[App Store Link](https://itunes.apple.com/us/app/dvcon-2018/id1352132248?ls=1&mt=8)"
 
   - image: "/img/timeline/ohio.png"
     date: "Jul 2017"
@@ -152,7 +157,7 @@ events:
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/gt.jpg"
 
 ###########
 # Contact #

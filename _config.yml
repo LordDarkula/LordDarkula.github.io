@@ -41,7 +41,7 @@ favicon: "/img/dodgeball-100.ico"
 
 black-favicon: "/img/dodgeball-25.ico"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "/img/intro-bg.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -145,11 +145,11 @@ events:
 
   - image: "/img/timeline/ohio.png"
     date: "Jul 2017"
-    description: "PyOhio 2017 Conference Speaker. Talk titled Using Machine Learning to Play Chess <br>[Video](https://www.youtube.com/watch?v=bJfqn4Ysvsk&t=9s)" 
-  
+    description: "PyOhio 2017 Conference Speaker. Talk titled Using Machine Learning to Play Chess <br>[Video](https://www.youtube.com/watch?v=bJfqn4Ysvsk&t=9s)"
+
   - image: "/img/timeline/un.png"
     date: "Jul 2016 - May 2017"
-    description: "United Nations Department of Economic and Social Affairs Volunteer 
+    description: "United Nations Department of Economic and Social Affairs Volunteer
 <br>
 [UN DESA Modelling Website](https://un-modelling.github.io)
 <br>

@@ -6,8 +6,7 @@ categories: programming
 ---
 
 In order to customize your terminal prompt, you must edit (create if it doesn't exist),
-a `.bashrc` (on linux) or `bash_profile` (on macOS) file in your home directory. 
-
+a `.bashrc` (on linux) or `bash_profile` (on macOS) file in your home directory.
 
 ## 1. Differentiate between macOS and linux
 
@@ -30,7 +29,7 @@ fi
 ## 2. Remove the bell sound
 
 When you press the backspace key at the start of a line, your computer will make an
-audible beep sound. To turn it off, create a file called `.inputrc` in 
+audible beep sound. To turn it off, create a file called `.inputrc` in
 your home directory. Add the following to the file.
 ```bash
 # Silences terminal
